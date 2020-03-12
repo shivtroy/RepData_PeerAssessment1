@@ -48,7 +48,7 @@ The corresponding histogram:
 histogram(stepsPerDay$steps, xlab = "Steps", main = "Total steps per day", breaks = 10)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figures/unnamed-chunk-3.png) 
 
 The mean and median number of steps per day:
 
@@ -96,7 +96,7 @@ xyplot(steps ~ interval, data = intervalAvg, type = "l", xlab = "5-minute Interv
     ylab = "Steps", main = "Average steps")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](figures/unnamed-chunk-6.png) 
 
 The maximum number of steps, on average, are in the following interval:
 
@@ -149,7 +149,7 @@ histogram(stepsPerDay$steps, xlab = "Steps", main = "Total steps (No missing val
     breaks = 10)
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-10](figures/unnamed-chunk-10.png) 
 
 The new mean and median:
 
@@ -216,7 +216,7 @@ xyplot(steps ~ interval | day, data = weekSteps, type = "l", layout = c(1, 2),
     xlab = "Interval", ylab = "Number of steps", main = "Average steps by day")
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14.png) 
+![plot of chunk unnamed-chunk-14](figures/unnamed-chunk-14.png) 
 
 The plot shows comparitively higher activity in mornings during weekdays, and higher activity at midday and evenings during weekends.  
 
